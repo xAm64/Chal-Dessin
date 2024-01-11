@@ -3,6 +3,7 @@ package fr.fms.job;
 import fr.fms.entities.Circle;
 import fr.fms.entities.Point;
 import fr.fms.entities.Square;
+import fr.fms.graphic.Graphic;
 
 public class TestIJob {
 
@@ -21,6 +22,10 @@ public class TestIJob {
 		job.deleteShape(3);
 		job.moveShape(5, 200, 250);
 		job.displayAll();
+		
+		Graphic draw = new Graphic();
+		
+		//job.drawShape(2, draw);
 
 	}
 
