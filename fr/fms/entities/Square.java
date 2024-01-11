@@ -25,11 +25,13 @@ public class Square extends Shape {
 			this.side = side;
 	}
 
+	@Override
 	public double area() {
 		return this.side * this.side;
 	}
 
-	public double perimenter() {
+	@Override
+	public double perimeter() {
 		return 4 * side;
 	}
 
